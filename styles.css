@@ -1,0 +1,689 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://movies-app-website.vercel.app/static/media/Background.2b1d131c9fd6b0440251.png);
+    background-color: #121829;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+#headConta {
+    width: 100vw;
+    height: 70px;
+    background-color: #121829;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-weight: 600;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1890ff;
+}
+
+.mainHead {
+    color: aqua !important; 
+}
+.navConta {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.logoImage {
+    width: 40px;
+}
+
+.iconBox {
+    color: white;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    color: rgb(92, 104, 209);
+}
+
+.fa-bars {
+    color: #121829;
+}
+
+#mainConta {
+    padding: 50px 150px;
+}
+
+.firstPageArticle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.firstPageTitle {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.firstPageDetails {
+    width: 550px;
+    color: gray;
+}
+
+.searchBox {
+    border: 1px solid #323b54;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    height: 50px;
+    width: 300px;
+    gap: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.searchIcon {
+    color: #323b54;
+}
+
+.inputConta {
+    outline: none;
+    border: none;
+    background-color: transparent !important;
+    height: 100%;
+    color: white;
+}
+
+::placeholder {
+    color: #323b54;
+    font-size: 20px;
+}
+
+.allConta {
+    color: gray;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.articleRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.secondPageArticle {
+    background-color: #20283e;
+    width: 270px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+.bottomPart {
+    height: 60px;
+    padding: 0px 5px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2 {
+    padding-top: 30px;
+}
+
+.imgBox {
+    height: 430px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgBox1 {
+    height: 430px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-tag {
+    color: #ffad49;
+}
+
+.movieImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.absoConta {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.rateBox {
+    color: #ffad49;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(0,0,0,.65);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.likeBox {
+    color: #ffad49;
+    background-color: rgba(0,0,0,.65);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#detailsSection1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsPageFirstArticleConta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detailsBannerConta {
+    width: 91vw;
+    height: 73vh;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 30px;
+    background-color: wheat;
+    position: relative;
+}
+
+.detailsPageFirstArticleMovieSlogan {
+    color: #beb7fb;
+    font-size: 13px;
+}
+
+.detailsPageFirstArticleMovieTitle {
+    color: white;
+}
+
+.detailsPageFirstArticleTitle {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 40px 0;
+    background-color: rgba(32,40,62,.8);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 5px;
+}
+
+#detailsSection2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsPageSecondArticlePosterImage {
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.detailsPageSecondArticleConta {
+    display: flex;
+    gap: 50px;
+}
+
+.detailsPageSecondArticleRightConta {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detailsPageSecondArticleRightDetailsOneTitleConta {
+    color: white;
+    font-size: 25px;
+}
+
+.detailsPageSecondArticleRightDetailsOneDetailsConta {
+    color: #8e95a9;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.rateBox2 {
+    color: #ffad49;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    /* width: 75px; */
+    font-size: 25px;
+}
+
+.detailsPageSecondArticleRightDetailsOneIconBox {
+    color: #ffad49;
+    font-size: 20px;
+}
+
+.detailsPageSecondArticleRightDetailsOneIconBox i {
+    background-color: rgba(0,0,0,.65);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gray {
+    color: #8e95a9;
+}
+
+.black {
+    color: #c3c8d4;
+}
+
+.detailsPageSecondArticleRightDetailsTwoConta {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detailsPageSecondArticleRightDetailsOneConta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#detailsSection3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.recommendationTitle {
+    font-size: 60px;
+    color: #beb7fb;
+}
+
+.recommendedRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.read {
+    padding: 10px 15px;
+    background-color: rgb(37, 103, 157);
+    color: white;
+    border-radius: 6px;
+}
+.update {
+    padding: 10px 15px;
+    background-color: rgb(84, 146, 92);
+    color: white;
+    border-radius: 6px;
+}
+
+.contaBtn button {
+    border: none;
+}
+
+.delete {
+    padding: 10px 15px;
+    background-color: rgb(195, 64, 64);
+    color: white;
+    border-radius: 6px;
+}
+
+.modal {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100;
+}
+
+.modal1 {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100;
+}
+
+
+.modal .modalBox {
+    width: 450px;
+    background-color: rgba(32, 40, 62, 0.927);
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+  }
+
+.modal1 .modalBox1 {
+    width: 450px;
+    background-color: rgba(32, 40, 62, 0.927);
+    border-radius: 10px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+.modal1 .modalBox1 button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(84, 146, 92);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.modal2 .modalBox2 button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(64, 70, 171);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .close1 {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .imgBox1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contaBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .modal1 form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+  }
+
+  .editTitle, .editVote, .editOwer {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  .editTitle2, .editVote2 {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  
+  .modal2 {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.413);
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    transition: .5s all;
+    opacity: 0;
+    z-index: 100;
+}
+
+.modal2 .modalBox2 {
+    width: 450px;
+    background-color: rgba(32, 40, 62, 0.927);
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+
+}
+
+.close2 {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.modal2 form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+}
+
+.boxBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxBtn button{
+    padding: 10px 25px;
+    background-color: rgb(64, 70, 171);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* Responsive Design (RD) - start */
+
+@media (max-width: 750px) {
+    
+    #headConta {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        position: fixed;
+        height: 100vh;
+        flex-direction: column;
+        width: 250px;
+        background-color: rgb(255, 92, 92);
+        top: 0;
+        left: 0;
+        color: #121829;
+        justify-content: space-around;
+        align-items: center;
+        transition: 1s all;
+        display: none;
+    }
+
+    .iconBox {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block !important;
+        color: rgb(92, 104, 209);
+        font-size: 25px;
+    }
+
+    .searchBox {
+        width: fit-content;
+    }
+
+    .firstPageDetails {
+        width: fit-content;
+    }
+
+    #mainConta {
+        padding: 20px;
+    }
+
+    .allConta {
+        display: flex;
+        justify-content: center;
+    }
+
+    .articleRow {
+        display: flex;
+        justify-content: center;
+    }
+
+    #detailsMainConta {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .detailsPageFirstArticleConta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .detailsPageFirstArticleTitle {
+        width: fit-content;
+        left: 0px;
+        bottom: 0px;
+        position: static;
+        display: flex;
+        text-align: center;
+        width: 350px;
+    }
+
+    .detailsPageFirstArticleMovieTitle {
+        font-size: 35px;
+    }
+
+    .detailsPageSecondArticleRightConta  {
+        width: fit-content;
+    }
+
+    .detailsPageSecondArticleConta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .recommendationTitle {
+        font-size: 30px;
+    }
+
+    .rateBox2 {
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+}
